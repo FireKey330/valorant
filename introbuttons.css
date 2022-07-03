@@ -1,0 +1,166 @@
+  
+        
+        
+        
+        p{
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+        .wallpaper{
+            
+          
+            width:100%;
+            margin-top:73px;
+        }
+        
+        body{
+            background-color: #121212  ;
+        }
+
+        .header{
+            height:70px;
+            position: fixed;
+            background-color:black;
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            margin-left: 0px;
+            margin-right: 0px;
+            margin-top:0px;
+            z-index: 2;
+            
+        
+        }
+        .headercover{
+            margin-left:0px;
+            width:100%;
+            object-fit: cover;
+            object-position: bottom;
+            position:relative;
+            
+
+        }
+        .headercover:hover{
+                opacity:0.1px;
+                                                                 
+        }
+        .headerdiv{
+            z-index: index 3;
+            position:absolute;
+            display:flex;
+            flex-direction:row;
+
+
+        }
+        .right-header{
+            align-items: center;
+        }
+
+        .home-button{
+            margin-top: 7px;
+            margin-left:23px;
+            width:55px;
+            height:55px;
+            padding-top:0px;
+            padding-bottom: 6px;
+            border-radius: 25px;
+            background-color:#fa4454;
+            cursor:pointer;
+            transition: background-color 0.7s;
+        }
+        .home-button:hover{
+            opacity:0.1px;
+            color:black;
+            background-color: aquamarine;
+
+        }
+
+        .all-agents{
+            background-color: rgb(194, 33, 60);
+            color:white;
+            font-family: Arial, Helvetica, sans-serif;
+            border-radius:30px;
+            padding-left:15px;
+            padding-right:15px;
+            margin-top: 10px;
+            margin-bottom: 5px;
+            font-weight:bold;
+            transition:background-color 5s,
+                     color 0.8s,opacity 0.8s,
+                     text-decoration-line 0.8s;
+            margin-left:320px;
+
+        }
+        .all-agents:hover{
+              opacity:0.7;
+              background-color:white;
+              color:rgb(197, 34, 61);
+              text-decoration-line: underline;
+               }
+               .pearlvideolink{
+                
+                    
+                    align-items:center;
+                    margin-top:50px;
+                    
+               }
+               .leftpearldiv{
+                margin-top:10px;
+                
+               }
+               .pearlheading{
+                font-size:300%;
+                color:rgb(134, 8, 143);
+                margin-top: 7px;
+                margin-bottom: 0px;
+                transition: color 0.3s;
+               }
+               .pearlheading:hover{
+                color:rgba(243, 243, 6, 0.842)
+               }
+               
+ .valorantpng{
+    height:100%;
+ }
+       
+         
+          .valoranticon{
+            width:100%;
+            max-width:220px; 
+            margin-top:50px;
+            margin-bottom:20px;
+          }
+          .outsidebutton{
+            padding-left:5px;
+            padding-right:5px;
+            padding-top:5px;
+            padding-bottom:5px;
+            border-color:rgb(194, 33, 60);
+            border-width: 4px;
+            background-color: #121212;
+          }
+          
+        
+        .maps-button{
+            padding-top:14px;
+            padding-bottom:14px;
+            padding-left:16px;
+            padding-right:16px;
+            background-color:transparent;
+            border-width:2px;
+            border-color:#fa4454;
+            margin-top:10px;
+            margin-left:18px;
+            cursor:pointer;
+            transition:background-color 1s,color 0.7s,
+            padding-left 1s, padding-right 1s,margin-left 0.3s
+                        ;
+          }
+        .maps-button:hover{
+            background-color:#fa4454;
+            color:#121212;
+            padding-left:36px;
+            margin-left:3px;
+            padding-right:36px;
+
+        }
